@@ -1,0 +1,20 @@
+# Credenciais — NUNCA subir
+.env
+*.env
+credenciais.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

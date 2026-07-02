@@ -1,0 +1,47 @@
+/* Cores da marca Universo Tec */
+:root {
+  --azul-escuro: #1d4ed8;
+  --azul-medio: #3b82f6;
+  --azul-claro: #60a5fa;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e293b;
+  background: #f8fafc;
+  line-height: 1.6;
+}
+
+header {
+  background: var(--azul-escuro);
+  color: #fff;
+  text-align: center;
+  padding: 48px 16px;
+}
+
+header h1 { font-size: 2.4rem; }
+header p { color: var(--azul-claro); margin-top: 8px; }
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.aviso {
+  background: #fff;
+  border: 1px solid var(--azul-claro);
+  border-radius: 12px;
+  padding: 24px;
+  color: var(--azul-escuro);
+}
+
+footer {
+  text-align: center;
+  padding: 24px 16px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
