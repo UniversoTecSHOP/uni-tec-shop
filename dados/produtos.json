@@ -1,8 +1,44 @@
 [
   {
-    "nome": "Fone Bluetooth Exemplo (produto fictício de teste)",
-    "preco": "R$ 79,90",
-    "imagem": "https://via.placeholder.com/300x300?text=Produto",
-    "link_afiliado": "https://s.shopee.com.br/exemplo"
+    "cat": "Áudio",
+    "nome": "Fone Bluetooth com cancelamento de ruído e estojo de carga",
+    "preco": "149,90",
+    "imagem": "",
+    "link": "#"
+  },
+  {
+    "cat": "Acessórios",
+    "nome": "Suporte articulado de mesa para notebook em alumínio",
+    "preco": "89,00",
+    "imagem": "",
+    "link": "#"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador GaN 65W com três saídas e carga rápida",
+    "preco": "119,90",
+    "imagem": "",
+    "link": "#"
+  },
+  {
+    "cat": "Periféricos",
+    "nome": "Teclado mecânico compacto sem fio com switches silenciosos",
+    "preco": "214,90",
+    "imagem": "",
+    "link": "#"
+  },
+  {
+    "cat": "Iluminação",
+    "nome": "Fita de LED RGB inteligente com controle por aplicativo",
+    "preco": "59,90",
+    "imagem": "",
+    "link": "#"
+  },
+  {
+    "cat": "Mobilidade",
+    "nome": "Power bank 20000mAh com display digital e carga rápida",
+    "preco": "134,90",
+    "imagem": "",
+    "link": "#"
   }
 ]
