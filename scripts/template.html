@@ -81,6 +81,27 @@
 
   /* ---------- BARRA DE FILTROS ---------- */
   .filtros-barra { max-width: 1200px; margin: 0 auto 28px; padding: 0 40px; }
+
+  .busca-wrap { position: relative; margin-bottom: 16px; }
+  .busca {
+    width: 100%; background: var(--card); border: 1px solid var(--line);
+    border-radius: 100px; padding: 13px 44px 13px 46px; color: var(--ink);
+    font-family: 'Inter', sans-serif; font-size: 0.95rem; transition: border-color 0.2s;
+  }
+  .busca::placeholder { color: var(--ink-dim); }
+  .busca:focus { outline: none; border-color: var(--accent); }
+  .busca-icon {
+    position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
+    width: 18px; height: 18px; stroke: var(--ink-dim); fill: none; pointer-events: none;
+  }
+  .busca-limpar {
+    position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+    width: 30px; height: 30px; border-radius: 50%; border: none; background: transparent;
+    cursor: pointer; display: none; align-items: center; justify-content: center;
+  }
+  .busca-limpar.mostrar { display: flex; }
+  .busca-limpar svg { width: 15px; height: 15px; stroke: var(--ink-dim); }
+  .busca-limpar:hover svg { stroke: var(--ink); }
   .filtros { display: flex; flex-wrap: wrap; gap: 9px; }
   .filtro {
     display: inline-flex; align-items: center; gap: 7px;
@@ -92,6 +113,7 @@
   }
   .filtro:hover { color: var(--ink); border-color: var(--accent-soft); }
   .filtro.ativo { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .filtro svg { width: 16px; height: 16px; stroke: currentColor; fill: none; flex-shrink: 0; }
   .filtro-num {
     font-size: 0.7rem; color: var(--ink-dim);
     background: var(--bg); border-radius: 100px;
@@ -330,6 +352,13 @@
   </div>
 
   <div class="filtros-barra">
+    <div class="busca-wrap">
+      <svg class="busca-icon" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke-width="1.8"/><path d="M21 21l-4.3-4.3" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input class="busca" id="busca" type="text" placeholder="Buscar produto... (ex: fone, carregador, mouse)" autocomplete="off">
+      <button class="busca-limpar" id="buscaLimpar" aria-label="Limpar busca">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
     <div class="filtros" id="filtros">
       <!--FILTROS-->
     </div>
@@ -461,28 +490,51 @@
   <div class="toast" id="toast"></div>
 
 <script>
-  // ---------- FILTRO POR CATEGORIA ----------
+  // ---------- FILTRO POR CATEGORIA + BUSCA ----------
   const botoesFiltro = document.querySelectorAll('.filtro');
   const todosCards   = document.querySelectorAll('.card');
   const semResultado = document.getElementById('semResultado');
+  const campoBusca   = document.getElementById('busca');
+  const btnLimpar    = document.getElementById('buscaLimpar');
+
+  let categoriaAtiva = 'todos';
+  let termoBusca = '';
 
   botoesFiltro.forEach(btn => {
-    btn.addEventListener('click', () => aplicarFiltro(btn));
+    btn.addEventListener('click', () => {
+      botoesFiltro.forEach(b => b.classList.remove('ativo'));
+      btn.classList.add('ativo');
+      categoriaAtiva = btn.dataset.filtro;
+      aplicar();
+    });
   });
 
-  function aplicarFiltro(btn) {
-    const alvo = btn.dataset.filtro;
+  campoBusca.addEventListener('input', () => {
+    termoBusca = campoBusca.value.trim().toLowerCase();
+    btnLimpar.classList.toggle('mostrar', termoBusca.length > 0);
+    aplicar();
+  });
 
-    botoesFiltro.forEach(b => b.classList.remove('ativo'));
-    btn.classList.add('ativo');
+  btnLimpar.addEventListener('click', () => {
+    campoBusca.value = '';
+    termoBusca = '';
+    btnLimpar.classList.remove('mostrar');
+    aplicar();
+    campoBusca.focus();
+  });
 
+  function aplicar() {
     let visiveis = 0;
     todosCards.forEach(card => {
-      const combina = (alvo === 'todos') || (card.dataset.cat === alvo);
-      card.classList.toggle('oculto', !combina);
-      if (combina) visiveis++;
-    });
+      const catOk = (categoriaAtiva === 'todos') || (card.dataset.cat === categoriaAtiva);
+      const nome = card.querySelector('.card-name').textContent.toLowerCase();
+      const cat = card.querySelector('.card-cat').textContent.toLowerCase();
+      const buscaOk = (termoBusca === '') || nome.includes(termoBusca) || cat.includes(termoBusca);
 
+      const mostrar = catOk && buscaOk;
+      card.classList.toggle('oculto', !mostrar);
+      if (mostrar) visiveis++;
+    });
     semResultado.classList.toggle('mostrar', visiveis === 0);
   }
 
