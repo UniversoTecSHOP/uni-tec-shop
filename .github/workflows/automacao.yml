@@ -1,15 +1,12 @@
-# automacao.yml — agenda o script pra rodar sozinho no GitHub.
-#
-# ⚠️ ESQUELETO: propositalmente sem o gatilho de agendamento ativo ainda,
-# pra não rodar antes da API estar liberada. Quando estiver tudo pronto,
-# a gente ativa o "schedule".
-
 name: Atualizar produtos Universo Tec
 
 on:
-  workflow_dispatch:   # por enquanto: só roda manualmente, apertando um botão
-  # schedule:
-  #   - cron: '0 9 * * *'   # (desligado) rodaria todo dia às 9h UTC
+  workflow_dispatch:        # permite rodar manualmente pelo botão
+  schedule:
+    - cron: '0 9 * * *'     # todo dia às 9h UTC (6h no horário de Brasília)
+
+permissions:
+  contents: write           # necessário para o bot commitar o site atualizado
 
 jobs:
   atualizar:
@@ -26,12 +23,19 @@ jobs:
       - name: Instalar bibliotecas
         run: pip install -r requirements.txt
 
-      # TODO: quando a API liberar, ativar os passos abaixo e configurar os Secrets
-      # - name: Coletar produtos
-      #   env:
-      #     SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
-      #     SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
-      #   run: python scripts/coletar.py
-      #
-      # - name: Gerar o site
-      #   run: python scripts/gerar_site.py
+      - name: Coletar produtos da Shopee
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
+        run: python scripts/coletar.py
+
+      - name: Gerar o site
+        run: python scripts/gerar_site.py
+
+      - name: Publicar as mudanças
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add dados/produtos.json index.html
+          git diff --staged --quiet || git commit -m "Atualiza produtos automaticamente"
+          git push
