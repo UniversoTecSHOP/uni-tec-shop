@@ -31,16 +31,29 @@ BUSCAS = [
     {"termo": "fone de ouvido com fio",  "categoria": "Áudio"},
     {"termo": "headset gamer sem fio",   "categoria": "Áudio"},
     {"termo": "caixa de som bluetooth",  "categoria": "Áudio"},
+    {"termo": "headset sem fio",  "categoria": "Áudio"},
+    {"termo": "headset com fio",  "categoria": "Áudio"},
+    {"termo": "headset gamer com fio",  "categoria": "Áudio"},
+    {"termo": "headset gamer sem fio",  "categoria": "Áudio"},
+
 
     # Mouse
     {"termo": "mouse sem fio",           "categoria": "Mouse"},
     {"termo": "mouse vertical",          "categoria": "Mouse"},
     {"termo": "mouse gamer",             "categoria": "Mouse"},
     {"termo": "mousepad gamer",          "categoria": "Mouse"},
+    {"termo": "mouse com fio gamer",          "categoria": "Mouse"},
+    {"termo": "mouse com fio",          "categoria": "Mouse"},
+    {"termo": "mouse sem fio gamer",          "categoria": "Mouse"},
+    {"termo": "mouse bluetooth",          "categoria": "Mouse"},
 
     # Teclado
     {"termo": "teclado mecanico",        "categoria": "Teclado"},
     {"termo": "teclado gamer sem fio",   "categoria": "Teclado"},
+    {"termo": "teclado gamer com fio",   "categoria": "Teclado"},
+    {"termo": "teclado com fio",   "categoria": "Teclado"},
+    {"termo": "teclado sem fio",   "categoria": "Teclado"},
+
 
     # Gamer
     {"termo": "controle pc sem fio",     "categoria": "Gamer"},
@@ -65,11 +78,12 @@ BUSCAS = [
     {"termo": "suporte notebook",        "categoria": "Setup"},
     {"termo": "hd externo",              "categoria": "Setup"},
     {"termo": "webcam",                  "categoria": "Setup"},
-    {"termo": "hub usb",                 "categoria": "Setup"},
+    {"termo": "pen drive",                  "categoria": "Setup"},
+    #não usar{"termo": "hub usb",                 "categoria": "Setup"},
 
     # Iluminação
-    {"termo": "fita led rgb",            "categoria": "Iluminação"},
-    {"termo": "ring light",              "categoria": "Iluminação"},
+    #{"termo": "fita led rgb",            "categoria": "Iluminação"},
+    #"termo": "ring light",              "categoria": "Iluminação"},
 
     # Vestível
     {"termo": "smartwatch",              "categoria": "Vestível"},
@@ -77,7 +91,7 @@ BUSCAS = [
 ]
 
 # Quantos produtos pegar de CADA busca (máx. 50)
-POR_BUSCA = 4
+POR_BUSCA = 6
 
 # Ordenação: 2 = mais vendidos
 TIPO_ORDENACAO = 2
