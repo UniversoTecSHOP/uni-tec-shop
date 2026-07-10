@@ -18,8 +18,10 @@
   html { scroll-behavior: smooth; }
   body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased; line-height: 1.6; overflow-x: hidden; }
+  body.modal-aberto { overflow: hidden; }
   ::selection { background: var(--accent); color: #fff; }
 
+  /* ---------- HEADER ---------- */
   .topbar { display: flex; justify-content: space-between; align-items: center;
     padding: 18px 40px; border-bottom: 1px solid var(--line); position: sticky; top: 0;
     background: rgba(10,14,26,0.85); backdrop-filter: blur(12px); z-index: 50; }
@@ -34,18 +36,35 @@
   .fav-btn { display: inline-flex; align-items: center; justify-content: center;
     width: 40px; height: 40px; border: 1px solid var(--line); border-radius: 10px;
     background: var(--bg-soft); cursor: pointer; transition: border-color 0.2s; position: relative; }
-  .fav-btn:hover { border-color: var(--accent-soft); }
+  .fav-btn:hover { border-color: var(--accent); }
   .fav-btn svg { width: 20px; height: 20px; }
   .fav-count { position: absolute; top: -7px; right: -7px; min-width: 18px; height: 18px;
     background: var(--accent); color: #fff; border-radius: 9px; font-size: 0.68rem; font-weight: 600;
     display: none; align-items: center; justify-content: center; padding: 0 5px; font-family: 'Space Grotesk', sans-serif; }
   .fav-count.show { display: flex; }
 
+  /* ---------- HERO com LOGO ANIMADA ---------- */
   .hero { position: relative; padding: 80px 40px 70px; text-align: center; overflow: hidden; }
   .hero-orbit-bg { position: absolute; top: 46%; left: 50%; transform: translate(-50%,-50%);
     width: 640px; height: 640px; max-width: 92vw; max-height: 92vw; opacity: 0.45; pointer-events: none; }
   .hero-logo { position: relative; width: 190px; height: 190px; margin: 0 auto 28px;
-    display: flex; align-items: center; justify-content: center; }
+    display: flex; align-items: center; justify-content: center;
+    animation: flutuar 5s ease-in-out infinite; }
+
+  /* planeta sobe e desce suavemente */
+  @keyframes flutuar {
+    0%, 100% { transform: translateY(-8px); }
+    50%      { transform: translateY(8px); }
+  }
+  /* o elétron é animado pelo <animateMotion> dentro do SVG, não pelo CSS */
+
+  /* núcleo pulsa */
+  .nucleo { animation: pulsar 2.4s ease-in-out infinite; transform-origin: 95px 95px; }
+  @keyframes pulsar {
+    0%, 100% { opacity: 1;   r: 7; }
+    50%      { opacity: 0.6; r: 9; }
+  }
+
   .eyebrow { display: inline-block; font-family: 'Space Grotesk', sans-serif; font-size: 0.75rem;
     letter-spacing: 0.24em; text-transform: uppercase; color: var(--accent); margin-bottom: 22px;
     padding: 7px 16px; border: 1px solid var(--line); border-radius: 100px; position: relative; }
@@ -54,6 +73,7 @@
   .hero h1 .thin { color: var(--ink-dim); font-weight: 400; }
   .hero p { max-width: 520px; margin: 0 auto; color: var(--ink-dim); font-size: 1.05rem; position: relative; }
 
+  /* ---------- SEÇÕES ---------- */
   .section-head { display: flex; align-items: baseline; justify-content: space-between; padding: 0 40px;
     max-width: 1200px; margin: 30px auto 30px; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
   .section-head h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.45rem; font-weight: 600; letter-spacing: -0.02em; }
@@ -69,7 +89,7 @@
 
   .card-fav { position: absolute; top: 12px; right: 12px; z-index: 3; width: 34px; height: 34px;
     border-radius: 9px; background: rgba(10,14,26,0.6); backdrop-filter: blur(4px); border: 1px solid var(--line);
-    cursor: pointer; display: flex; align-items: center; justify-content: center; transition: border-color 0.2s, background 0.2s; }
+    cursor: pointer; display: flex; align-items: center; justify-content: center; transition: border-color 0.2s; }
   .card-fav:hover { border-color: var(--accent); }
   .card-fav svg { width: 18px; height: 18px; transition: transform 0.2s; }
   .card-fav:active svg { transform: scale(0.8); }
@@ -96,7 +116,26 @@
   .card-link svg { transition: transform 0.25s; }
   .card-link:hover svg { transform: translateX(3px); }
 
-  .about { max-width: 1000px; margin: 20px auto 0; padding: 70px 40px; text-align: center; }
+  /* ---------- FORMAS DE PAGAMENTO ---------- */
+  .pagamentos { max-width: 1200px; margin: 0 auto; padding: 0 40px 90px; }
+  .pag-head { border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 30px;
+    display: flex; align-items: baseline; justify-content: space-between; }
+  .pag-head h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.45rem; font-weight: 600; letter-spacing: -0.02em; }
+  .pag-head span { font-family: 'Space Grotesk', sans-serif; font-size: 0.82rem; color: var(--ink-dim); }
+  .pag-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+  .pag-item { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 22px 20px; transition: border-color 0.3s, transform 0.3s; }
+  .pag-item:hover { border-color: var(--accent-soft); transform: translateY(-3px); }
+  .pag-icon { width: 38px; height: 38px; border-radius: 10px; background: var(--bg-soft);
+    border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+  .pag-icon svg { width: 19px; height: 19px; stroke: var(--accent); fill: none; }
+  .pag-item h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1rem; font-weight: 600; margin-bottom: 6px; }
+  .pag-item p { color: var(--ink-dim); font-size: 0.86rem; line-height: 1.5; }
+  .pag-nota { margin-top: 22px; color: var(--ink-dim); font-size: 0.82rem; text-align: center; }
+
+  /* ---------- QUEM SOMOS (sempre no fim) ---------- */
+  .about { max-width: 1000px; margin: 0 auto; padding: 70px 40px; text-align: center;
+    border-top: 1px solid var(--line); }
   .about .eyebrow { margin-bottom: 26px; }
   .about h2 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.9rem, 4.5vw, 3rem);
     font-weight: 700; line-height: 1.08; letter-spacing: -0.03em; margin-bottom: 26px; }
@@ -115,6 +154,61 @@
     display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; align-items: center; color: var(--ink-dim); font-size: 0.85rem; }
   footer .disclosure { max-width: 440px; line-height: 1.5; }
 
+  /* ---------- MODAL DE FAVORITOS ---------- */
+  .overlay { position: fixed; inset: 0; background: rgba(5,8,15,0.75); backdrop-filter: blur(6px);
+    opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 90; }
+  .overlay.open { opacity: 1; pointer-events: auto; }
+
+  .modal { position: fixed; top: 0; right: 0; height: 100%; width: 100%; max-width: 460px;
+    background: var(--bg); border-left: 1px solid var(--line); z-index: 95;
+    transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.2,0.7,0.2,1);
+    display: flex; flex-direction: column; }
+  .modal.open { transform: translateX(0); }
+
+  .modal-head { display: flex; align-items: center; justify-content: space-between;
+    padding: 22px 24px; border-bottom: 1px solid var(--line); flex-shrink: 0; }
+  .modal-head h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.2rem; font-weight: 600; letter-spacing: -0.02em; }
+  .modal-head .sub { color: var(--ink-dim); font-size: 0.82rem; margin-top: 2px; }
+  .modal-close { width: 36px; height: 36px; border-radius: 9px; border: 1px solid var(--line);
+    background: var(--bg-soft); cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: border-color 0.2s; flex-shrink: 0; }
+  .modal-close:hover { border-color: var(--accent); }
+  .modal-close svg { width: 16px; height: 16px; stroke: var(--ink-dim); }
+  .modal-close:hover svg { stroke: var(--ink); }
+
+  .modal-body { flex: 1; overflow-y: auto; padding: 20px 24px 24px; }
+
+  .fav-item { display: flex; gap: 14px; padding: 14px; background: var(--card);
+    border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; transition: border-color 0.25s; }
+  .fav-item:hover { border-color: var(--accent-soft); }
+  .fav-thumb { width: 72px; height: 72px; border-radius: 8px; flex-shrink: 0; overflow: hidden;
+    background: linear-gradient(145deg, #0e1526, #1a2440); }
+  .fav-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .fav-info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; }
+  .fav-cat { font-family: 'Space Grotesk', sans-serif; font-size: 0.62rem; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+  .fav-nome { font-size: 0.85rem; font-weight: 500; line-height: 1.35; margin-bottom: 8px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .fav-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .fav-preco { font-family: 'Space Grotesk', sans-serif; font-size: 1rem; font-weight: 600; }
+  .fav-preco .cents { font-size: 0.75rem; color: var(--ink-dim); }
+  .fav-acoes { display: flex; gap: 6px; }
+  .fav-ver { font-size: 0.75rem; color: var(--accent); text-decoration: none; padding: 6px 11px;
+    border: 1px solid var(--line); border-radius: 7px; transition: background 0.2s, border-color 0.2s; }
+  .fav-ver:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .fav-remover { width: 30px; height: 30px; border-radius: 7px; border: 1px solid var(--line);
+    background: transparent; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: border-color 0.2s; }
+  .fav-remover:hover { border-color: #ef4444; }
+  .fav-remover svg { width: 13px; height: 13px; stroke: var(--ink-dim); }
+  .fav-remover:hover svg { stroke: #ef4444; }
+
+  .modal-vazio { text-align: center; padding: 60px 20px; color: var(--ink-dim); }
+  .modal-vazio svg { width: 46px; height: 46px; stroke: var(--line); margin-bottom: 18px; }
+  .modal-vazio h3 { font-family: 'Space Grotesk', sans-serif; color: var(--ink); font-size: 1.05rem;
+    font-weight: 600; margin-bottom: 8px; }
+  .modal-vazio p { font-size: 0.88rem; max-width: 260px; margin: 0 auto; }
+
   .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
     background: var(--card); border: 1px solid var(--accent-soft); color: var(--ink); padding: 12px 22px;
     border-radius: 100px; font-size: 0.88rem; z-index: 100; transition: transform 0.35s cubic-bezier(0.2,0.7,0.2,1);
@@ -124,10 +218,14 @@
   @media (max-width: 640px) {
     .topbar { padding: 14px 18px; } .nav { display: none; }
     .hero { padding: 50px 20px 50px; } .hero-logo { width: 150px; height: 150px; }
-    .section-head, .grid, .about { padding-left: 20px; padding-right: 20px; }
+    .section-head, .grid, .about, .pagamentos { padding-left: 20px; padding-right: 20px; }
     footer { padding: 36px 20px; }
+    .modal { max-width: 100%; }
   }
-  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } html { scroll-behavior: auto; } }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+    html { scroll-behavior: auto; }
+  }
 </style>
 </head>
 <body>
@@ -144,9 +242,10 @@
     <div class="header-actions">
       <nav class="nav">
         <a href="#achados">Achados</a>
+        <a href="#pagamentos">Pagamento</a>
         <a href="#quem-somos">Quem somos</a>
       </nav>
-      <button class="fav-btn" id="favBtn" title="Meus favoritos" onclick="scrollToFavs()">
+      <button class="fav-btn" id="favBtn" title="Meus favoritos" aria-label="Abrir favoritos">
         <svg viewBox="0 0 24 24" fill="none">
           <path d="M12 20.5l-1.4-1.27C5.4 14.55 2 11.47 2 7.7 2 5.1 4.02 3 6.6 3c1.54 0 3.02.72 3.9 1.86C11.38 3.72 12.86 3 14.4 3 16.98 3 19 5.1 19 7.7c0 3.77-3.4 6.85-8.6 11.53L12 20.5z"
             stroke="#4d8dff" stroke-width="1.7" stroke-linejoin="round"/>
@@ -166,11 +265,28 @@
     </svg>
 
     <div class="hero-logo">
-      <svg viewBox="0 0 190 190" fill="none">
-        <ellipse cx="95" cy="95" rx="88" ry="33" fill="none" stroke="#2a5cc4" stroke-width="3.5" transform="rotate(-20 95 95)"/>
-        <circle cx="178" cy="63" r="5" fill="#4d8dff"/>
-        <circle cx="95" cy="95" r="52" fill="none" stroke="#4d8dff" stroke-width="4.5"/>
-        <circle cx="95" cy="95" r="7" fill="#4d8dff"/>
+      <svg viewBox="0 0 190 190" fill="none" width="190" height="190">
+        <!-- órbita visível: elipse simples, que sempre renderiza certo -->
+        <ellipse class="anel-externo" cx="95" cy="95" rx="78" ry="29" fill="none"
+                 stroke="#3d7ae8" stroke-width="3.5" opacity="0.9" transform="rotate(-20 95 95)"/>
+
+        <!-- trilha invisível do elétron: MESMA elipse, em forma de path -->
+        <path id="trilha" fill="none" stroke="none"
+              d="M 17 95 a 78 29 0 1 0 156 0 a 78 29 0 1 0 -156 0"
+              transform="rotate(-20 95 95)"/>
+
+        <!-- planeta -->
+        <circle cx="95" cy="95" r="50" fill="none" stroke="#4d8dff" stroke-width="4.5"/>
+
+        <!-- núcleo que pulsa -->
+        <circle class="nucleo" cx="95" cy="95" r="7" fill="#4d8dff"/>
+
+        <!-- elétron percorre o caminho da órbita, sem deformar -->
+        <circle r="5.5" fill="#4d8dff">
+          <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+            <mpath href="#trilha"/>
+          </animateMotion>
+        </circle>
       </svg>
     </div>
 
@@ -664,8 +780,69 @@
             </a>
           </div>
         </div>
-      </article>
+      </article></main>
 
+  <!-- ====== FORMAS DE PAGAMENTO ====== -->
+  <section class="pagamentos" id="pagamentos">
+    <div class="pag-head">
+      <h2>Como pagar</h2>
+      <span>Direto no app da Shopee</span>
+    </div>
+
+    <div class="pag-grid">
+      <div class="pag-item">
+        <div class="pag-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2l10 10-10 10L2 12 12 2z" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Pix</h3>
+        <p>Pagamento na hora, 24h por dia. Produtos selecionados têm até 8% de desconto pagando no Pix.</p>
+      </div>
+
+      <div class="pag-item">
+        <div class="pag-icon">
+          <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2.5" stroke-width="1.7"/><path d="M2 10h20" stroke-width="1.7"/></svg>
+        </div>
+        <h3>Cartão de crédito</h3>
+        <p>Aceita as principais bandeiras emitidas no Brasil, com opção de parcelar. Dá até pra dividir em dois cartões.</p>
+      </div>
+
+      <div class="pag-item">
+        <div class="pag-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 6v12M8 6v12M12 6v12M16 6v12M20 6v12" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Boleto bancário</h3>
+        <p>Pague em lotérica ou pelo banco. O processamento pode levar até 3 dias úteis.</p>
+      </div>
+
+      <div class="pag-item">
+        <div class="pag-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 12V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2v-1M18 12h4v4h-4a2 2 0 010-4z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>ShopeePay</h3>
+        <p>A carteira digital da Shopee. Adicione saldo, pague as compras e receba reembolso rapidamente.</p>
+      </div>
+
+      <div class="pag-item">
+        <div class="pag-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 8v8M9 11h6M12 3a9 9 0 100 18 9 9 0 000-18z" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>SParcelado</h3>
+        <p>Compre agora e pague depois, sem precisar de cartão. Está sujeito a análise de crédito e juros.</p>
+      </div>
+
+      <div class="pag-item">
+        <div class="pag-icon">
+          <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2.5" stroke-width="1.7"/><path d="M11 18h2" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Google Pay e débito CAIXA</h3>
+        <p>Também dá pra pagar pelo Google Pay ou cadastrando o Cartão de Débito Virtual da CAIXA.</p>
+      </div>
+    </div>
+
+    <p class="pag-nota">O pagamento é feito dentro da Shopee, com a Garantia Shopee — o dinheiro só vai para o vendedor depois que você confirmar o recebimento.</p>
+  </section>
+
+  <!-- ====== QUEM SOMOS (sempre no fim, antes do rodapé) ====== -->
   <section class="about" id="quem-somos">
     <div class="eyebrow">Quem somos</div>
     <h2>Não vendemos. <span class="accent">A gente indica o que presta.</span></h2>
@@ -706,31 +883,159 @@
     <p class="disclosure">Como participante do Programa de Afiliados Shopee, este site pode receber comissão sobre compras feitas pelos links, sem custo adicional para você.</p>
   </footer>
 
+  <!-- ====== MODAL DE FAVORITOS ====== -->
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+    <div class="modal-head">
+      <div>
+        <h2 id="modalTitulo">Seus favoritos</h2>
+        <div class="sub" id="modalSub">Nenhum produto salvo</div>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Fechar favoritos">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </aside>
+
   <div class="toast" id="toast"></div>
 
 <script>
-  // Os cards já vêm prontos do Python. Aqui fica só a lógica de favoritar.
-  const favoritos = new Set();
-  document.querySelectorAll('.card-fav').forEach(btn => btn.addEventListener('click', () => toggleFav(btn)));
-  function toggleFav(btn) {
+  // ---------- FAVORITOS ----------
+  const favoritos = new Map();   // id -> dados do produto
+
+  const modal   = document.getElementById('modal');
+  const overlay = document.getElementById('overlay');
+
+  document.querySelectorAll('.card-fav').forEach(btn => {
+    btn.addEventListener('click', () => alternarFavorito(btn));
+  });
+
+  document.getElementById('favBtn').addEventListener('click', abrirModal);
+  document.getElementById('modalClose').addEventListener('click', fecharModal);
+  overlay.addEventListener('click', fecharModal);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharModal(); });
+
+  function lerProduto(card) {
+    const img = card.querySelector('.card-img img');
+    return {
+      cat:    card.querySelector('.card-cat').textContent,
+      nome:   card.querySelector('.card-name').textContent,
+      preco:  card.querySelector('.card-price').textContent.trim(),
+      imagem: img ? img.src : '',
+      link:   card.querySelector('.card-link').href
+    };
+  }
+
+  function alternarFavorito(btn) {
     const id = btn.dataset.id;
-    if (favoritos.has(id)) { favoritos.delete(id); btn.classList.remove('active'); showToast('Removido dos favoritos'); }
-    else { favoritos.add(id); btn.classList.add('active'); showToast('Adicionado aos favoritos'); }
-    const count = document.getElementById('favCount');
-    count.textContent = favoritos.size;
-    count.classList.toggle('show', favoritos.size > 0);
+    const card = btn.closest('.card');
+
+    if (favoritos.has(id)) {
+      favoritos.delete(id);
+      btn.classList.remove('active');
+      mostrarAviso('Removido dos favoritos');
+    } else {
+      favoritos.set(id, lerProduto(card));
+      btn.classList.add('active');
+      mostrarAviso('Adicionado aos favoritos');
+    }
+    atualizarContador();
+    renderizarModal();
   }
-  let toastTimer;
-  function showToast(msg) {
+
+  function removerFavorito(id) {
+    favoritos.delete(id);
+    const btn = document.querySelector(`.card-fav[data-id="${id}"]`);
+    if (btn) btn.classList.remove('active');
+    atualizarContador();
+    renderizarModal();
+    mostrarAviso('Removido dos favoritos');
+  }
+
+  function atualizarContador() {
+    const c = document.getElementById('favCount');
+    c.textContent = favoritos.size;
+    c.classList.toggle('show', favoritos.size > 0);
+
+    const sub = document.getElementById('modalSub');
+    if (favoritos.size === 0) sub.textContent = 'Nenhum produto salvo';
+    else sub.textContent = favoritos.size === 1 ? '1 produto salvo' : `${favoritos.size} produtos salvos`;
+  }
+
+  function renderizarModal() {
+    const corpo = document.getElementById('modalBody');
+
+    if (favoritos.size === 0) {
+      corpo.innerHTML = `
+        <div class="modal-vazio">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 20.5l-1.4-1.27C5.4 14.55 2 11.47 2 7.7 2 5.1 4.02 3 6.6 3c1.54 0 3.02.72 3.9 1.86C11.38 3.72 12.86 3 14.4 3 16.98 3 19 5.1 19 7.7c0 3.77-3.4 6.85-8.6 11.53L12 20.5z"
+              stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+          <h3>Nada salvo por aqui</h3>
+          <p>Toque no coração de um produto para guardá-lo nesta lista.</p>
+        </div>`;
+      return;
+    }
+
+    let html = '';
+    favoritos.forEach((p, id) => {
+      const thumb = p.imagem
+        ? `<img src="${p.imagem}" alt="">`
+        : '';
+      html += `
+        <div class="fav-item">
+          <div class="fav-thumb">${thumb}</div>
+          <div class="fav-info">
+            <div>
+              <div class="fav-cat">${p.cat}</div>
+              <div class="fav-nome">${p.nome}</div>
+            </div>
+            <div class="fav-foot">
+              <div class="fav-preco">${p.preco}</div>
+              <div class="fav-acoes">
+                <button class="fav-remover" data-remover="${id}" aria-label="Remover dos favoritos">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke-width="2.2" stroke-linecap="round"/></svg>
+                </button>
+                <a class="fav-ver" href="${p.link}" target="_blank" rel="noopener">Ver</a>
+              </div>
+            </div>
+          </div>
+        </div>`;
+    });
+    corpo.innerHTML = html;
+
+    corpo.querySelectorAll('[data-remover]').forEach(b => {
+      b.addEventListener('click', () => removerFavorito(b.dataset.remover));
+    });
+  }
+
+  function abrirModal() {
+    renderizarModal();
+    modal.classList.add('open');
+    overlay.classList.add('open');
+    document.body.classList.add('modal-aberto');
+  }
+
+  function fecharModal() {
+    modal.classList.remove('open');
+    overlay.classList.remove('open');
+    document.body.classList.remove('modal-aberto');
+  }
+
+  // ---------- AVISO ----------
+  let avisoTimer;
+  function mostrarAviso(msg) {
     const t = document.getElementById('toast');
-    t.textContent = msg; t.classList.add('show');
-    clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 1800);
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(avisoTimer);
+    avisoTimer = setTimeout(() => t.classList.remove('show'), 1800);
   }
-  function scrollToFavs() {
-    if (favoritos.size === 0) { showToast('Você ainda não favoritou nada'); return; }
-    const first = document.querySelector('.card-fav.active');
-    if (first) first.closest('.card').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }
+
+  renderizarModal();
 </script>
 </body>
 </html>
