@@ -79,6 +79,35 @@
   .section-head h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.45rem; font-weight: 600; letter-spacing: -0.02em; }
   .section-head .count { font-family: 'Space Grotesk', sans-serif; font-size: 0.82rem; color: var(--ink-dim); }
 
+  /* ---------- BARRA DE FILTROS ---------- */
+  .filtros-barra { max-width: 1200px; margin: 0 auto 28px; padding: 0 40px; }
+  .filtros { display: flex; flex-wrap: wrap; gap: 9px; }
+  .filtro {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-family: 'Space Grotesk', sans-serif; font-size: 0.84rem; font-weight: 500;
+    color: var(--ink-dim); background: var(--card);
+    border: 1px solid var(--line); border-radius: 100px;
+    padding: 8px 15px; cursor: pointer;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+  }
+  .filtro:hover { color: var(--ink); border-color: var(--accent-soft); }
+  .filtro.ativo { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .filtro-num {
+    font-size: 0.7rem; color: var(--ink-dim);
+    background: var(--bg); border-radius: 100px;
+    padding: 1px 7px; min-width: 20px; text-align: center;
+    transition: color 0.2s, background 0.2s;
+  }
+  .filtro.ativo .filtro-num { color: #fff; background: rgba(255,255,255,0.2); }
+
+  .card.oculto { display: none; }
+
+  .sem-resultado {
+    display: none; text-align: center; color: var(--ink-dim);
+    padding: 60px 20px 90px; font-size: 0.95rem;
+  }
+  .sem-resultado.mostrar { display: block; }
+
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 20px;
     max-width: 1200px; margin: 0 auto; padding: 0 40px 90px; }
   .card { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 16px;
@@ -300,7 +329,17 @@
     <span class="count">Atualizado toda semana</span>
   </div>
 
+  <div class="filtros-barra">
+    <div class="filtros" id="filtros">
+      <!--FILTROS-->
+    </div>
+  </div>
+
   <main class="grid" id="produtos"><!--PRODUTOS--></main>
+
+  <div class="sem-resultado" id="semResultado">
+    <p>Nenhum produto nesta categoria.</p>
+  </div>
 
   <!-- ====== FORMAS DE PAGAMENTO ====== -->
   <section class="pagamentos" id="pagamentos">
@@ -422,6 +461,31 @@
   <div class="toast" id="toast"></div>
 
 <script>
+  // ---------- FILTRO POR CATEGORIA ----------
+  const botoesFiltro = document.querySelectorAll('.filtro');
+  const todosCards   = document.querySelectorAll('.card');
+  const semResultado = document.getElementById('semResultado');
+
+  botoesFiltro.forEach(btn => {
+    btn.addEventListener('click', () => aplicarFiltro(btn));
+  });
+
+  function aplicarFiltro(btn) {
+    const alvo = btn.dataset.filtro;
+
+    botoesFiltro.forEach(b => b.classList.remove('ativo'));
+    btn.classList.add('ativo');
+
+    let visiveis = 0;
+    todosCards.forEach(card => {
+      const combina = (alvo === 'todos') || (card.dataset.cat === alvo);
+      card.classList.toggle('oculto', !combina);
+      if (combina) visiveis++;
+    });
+
+    semResultado.classList.toggle('mostrar', visiveis === 0);
+  }
+
   // ---------- FAVORITOS ----------
   const favoritos = new Map();   // id -> dados do produto
 
