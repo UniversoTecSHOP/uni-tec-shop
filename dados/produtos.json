@@ -1,8 +1,43 @@
 [
   {
     "cat": "Cabos",
+    "nome": "Kit Carregador iPhone Turbo Tipo-C 20W + Cabo Lightining para IPhone Carga rápida",
+    "preco": "16,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rbkw-lpcg9rytbas79a",
+    "link": "https://s.shopee.com.br/5q6TVYD06W"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "( ORIGINAL ) Cabo Carregador Turbo Lightning Para iPhone iPad 7 8 X Xr 11 12 13 14 Pro Max",
+    "preco": "21,00",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8260v-mj4eil3jwr2d7d",
+    "link": "https://s.shopee.com.br/5VTd6wEGmU"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Carregador iPhone 20w Turbo Completo Usb C Lightning Compatível Xr 11 12 13 14 Pro Max",
+    "preco": "14,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mghbvm35glxg56",
+    "link": "https://s.shopee.com.br/5LACudEu7T"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Cabo de iPhone Turbo 30W PD USB C Para Lightning Qc 4.0 original A'GOLD Carregamento Super Rápido",
+    "preco": "15,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lydwlfxn34f98d",
+    "link": "https://s.shopee.com.br/1BKeIXmHeh"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Cabo Carregador USB-C + Tipo-C/Lightning Turbo 30W/60W 1M/2M Para iOS E Android A'GOLD",
+    "preco": "16,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgdw77ludcsl36",
+    "link": "https://s.shopee.com.br/40epfkbUuG"
+  },
+  {
+    "cat": "Cabos",
     "nome": "Cabo Hdmi Blindado Ultra Hd 4k 3D Varios Tamanhos",
-    "preco": "13,99",
+    "preco": "13,85",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lvafiiekrw2ve6",
     "link": "https://s.shopee.com.br/8AUOHqHFRF"
   },
@@ -86,7 +121,7 @@
   {
     "cat": "Carregamento",
     "nome": "Fone M10 F9-5 M25 Bluetooth V5.3 Carregador de Celular Prova Dágua Powerbank",
-    "preco": "18,99",
+    "preco": "17,98",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820lp-mpblc9onnc3n47",
     "link": "https://s.shopee.com.br/9KgM1XelZO"
   },
@@ -156,14 +191,14 @@
   {
     "cat": "Carregamento",
     "nome": "Adaptador Articulado Benjamin Pino Tomada 180° USB Tipo C Bivolt Dobrável",
-    "preco": "15,57",
+    "preco": "15,73",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820la-mnrchfj6p4aq83",
     "link": "https://s.shopee.com.br/4LHfin5RYS"
   },
   {
     "cat": "Carregamento",
     "nome": "KIT 2 Carregador Tomada Plug Adaptador Fonte 3.1A MAX Mini Carregador Original Portátil Usb",
-    "preco": "29,50",
+    "preco": "29,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mj6il2z1ansz64",
     "link": "https://s.shopee.com.br/W4xVJbceE"
   },
@@ -275,7 +310,7 @@
   {
     "cat": "Celular",
     "nome": "Suporte Celular Carro Magnético Metal Ventosa a Vácuo 360° Forte Anti-Queda iPhone",
-    "preco": "13,90",
+    "preco": "12,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mkf1zsn8cagwbe",
     "link": "https://s.shopee.com.br/111DkghzOl"
   },
@@ -336,6 +371,48 @@
     "link": "https://s.shopee.com.br/3ViZ4oeyOY"
   },
   {
+    "cat": "Gamer",
+    "nome": "Tripé de bastão de selfie para celular de 1,7 m, controle remoto integrado, portátil",
+    "preco": "26,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zvs-mn38dc1jemfcfc",
+    "link": "https://s.shopee.com.br/3ViYjFV18t"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Suporte de Celular Fixação Para Parede De Controle Remoto Com Adesivo",
+    "preco": "7,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-ln01kfszwhyzc0",
+    "link": "https://s.shopee.com.br/30mI8KWv9o"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Tripé Selfie para Celular com Luz LED e Controle Bluetooth – Bastão de Selfie Ajustável com Tripé",
+    "preco": "20,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820md-mlo9hn1p6z2dcf",
+    "link": "https://s.shopee.com.br/3B5iKdWHor"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Bastão de selfie telescópico Bluetooth com controle remoto para celular com suporte de tripé com luz para selfie",
+    "preco": "13,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rblq-m62ru9ndcq8u6f",
+    "link": "https://s.shopee.com.br/2g9RjiYBpm"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "1 ou 2 peças Suporte Parede dois em um Multifuncional Autoadesivo Telefone Móvel/Controle Remoto",
+    "preco": "11,80",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lxwhnv1lu6rj94",
+    "link": "https://s.shopee.com.br/50XMrZlIEy"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Fones De Ouvido UP18 Tipo-C Clássicos Com Fio Meio Intra-Auricular Digitais Controle Inferior Compatível Smartphones Som",
+    "preco": "10,51",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-823ol-mp4mkbm668sh7d",
+    "link": "https://s.shopee.com.br/5Aqn3skeu1"
+  },
+  {
     "cat": "Mouse",
     "nome": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB recarregável MS-S350L",
     "preco": "16,99",
@@ -359,7 +436,7 @@
   {
     "cat": "Mouse",
     "nome": "Mouse Sem Fio Portátil Pilha Notebook Tablet Windows mac Linux iPad",
-    "preco": "17,81",
+    "preco": "17,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820lv-moze1i009bt1a7",
     "link": "https://s.shopee.com.br/3g1yvWrBoj"
   },
@@ -534,7 +611,7 @@
   {
     "cat": "Mouse",
     "nome": "Mouse Gamer Sem Fio Attack Shark X11 Modo Triplo 2.4G BT5.0 22000DPI RGB Recarregável PC桌上清洁竞技专业电竞装备",
-    "preco": "115,57",
+    "preco": "141,00",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-8260m-mkgdbl6xws8wfc",
     "link": "https://s.shopee.com.br/9zw2ojlpm2"
   },
@@ -575,38 +652,87 @@
   },
   {
     "cat": "Setup",
+    "nome": "Base para suporte de laptop, adequada para laptops e tablets, feita de liga de alumínio, dobrável e portátil.",
+    "preco": "20,90",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-824h1-mpjpmfa9962z18",
+    "link": "https://s.shopee.com.br/1qaKgPqlGR"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Mesa Portátil Multiuso Para Notebook Tablet Home Office Estudo Sala Cama Com Porta-Copo",
+    "preco": "35,97",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztv-ml5ft6im9v5zfb",
+    "link": "https://s.shopee.com.br/gONIGvCdE"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Laptop Stand - Suporte para Notebook Dobrável de Ferro",
+    "preco": "12,59",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rati-maedvjf4i6tf62",
+    "link": "https://s.shopee.com.br/qhnUZuZIH"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Suporte Dobrável para Notebook e Tablet | Base Plástica Portátil 7 Níveis de Ajuste Prático",
+    "preco": "12,49",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mg-mm22jene172803",
+    "link": "https://s.shopee.com.br/111DgstvxK"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Mesa Portátil para Notebook Home Office",
+    "preco": "38,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdf1mp7xnhyxd3",
+    "link": "https://s.shopee.com.br/4qDwfIpWH7"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Laptop Suporte Base Notebook Tablet Alumínio Dobrável Portátil",
+    "preco": "22,90",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-820lx-mnmxw2nnug3qc4",
+    "link": "https://s.shopee.com.br/50XMrboswA"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Antena Digital Tomate HDTV Interna E Externa UHF VHF Base Magnética Sinal Forte",
+    "preco": "26,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-moyexusoqhom1c",
+    "link": "https://s.shopee.com.br/6AjLEhhKSx"
+  },
+  {
+    "cat": "Setup",
     "nome": "Antena Digital Tv 4k Full Hd Amplificada Interna Externa",
     "preco": "26,97",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjk7nyf9dv5y52",
-    "link": "https://s.shopee.com.br/AKYsrqYzfV"
+    "link": "https://s.shopee.com.br/5fn4dmjETs"
   },
   {
     "cat": "Setup",
     "nome": "Antena Digital 4k Smart Tv Full Hd Amplificada Interna E Externa Cabo 5 Metros Base Imã - RealUtili",
     "preco": "25,97",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-moyrisd63qpv1f",
-    "link": "https://s.shopee.com.br/AAFSfXZd0U"
+    "link": "https://s.shopee.com.br/5q6Uq5ib8v"
   },
   {
     "cat": "Setup",
     "nome": "Kit de Clip de Lente HD Externa para Celular 2em1 Lente  Super Macro e Grande Angular Compatível com todos os telefones",
     "preco": "21,88",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdyw-md024chosj0cf6",
-    "link": "https://s.shopee.com.br/9zw2TEaGLT"
+    "link": "https://s.shopee.com.br/5LAEFAkV9q"
   },
   {
     "cat": "Setup",
     "nome": "Câmera A8 Externa Ip A Prova D'água com Infravermelho Alarme Wifi Hd Sensor De Movimento Bivolt app yoosee ou icsee",
     "preco": "98,90",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwd-m1lmef19ftx927",
-    "link": "https://s.shopee.com.br/9pccGvatgS"
+    "link": "https://s.shopee.com.br/5VTeRTjrot"
   },
   {
     "cat": "Setup",
     "nome": "Case HD Externo 2.5 USB 3.0 SATA III Transparente SSD HDD Enclosure Alta Velocidade UASP",
     "preco": "18,99",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-82632-mmgbcwzyplok2c",
-    "link": "https://s.shopee.com.br/3LP8sY9WrR"
+    "link": "https://s.shopee.com.br/AKYuCMRT0q"
   },
   {
     "cat": "Setup",
@@ -653,7 +779,7 @@
   {
     "cat": "Setup",
     "nome": "Pen Drives e OTGs USB 8GB 16GB 32GB 64GB Cruzer Lâmina 2.0 Flash Drive Pen Drive",
-    "preco": "19,98",
+    "preco": "16,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820lr-mm3fxj6gj7d24b",
     "link": "https://s.shopee.com.br/8pk5QfDtCQ"
   },
@@ -975,7 +1101,7 @@
   {
     "cat": "Áudio",
     "nome": "Fone de Ouvido Com Fio QKZ AK6 In-Ear Gamer com Microfone Esportivo Baixo Estéreo P2 3.5mm Para Celular PC",
-    "preco": "24,99",
+    "preco": "23,99",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdw8-mbtki88c8xyt17",
     "link": "https://s.shopee.com.br/5LADG8Kq1J"
   },
