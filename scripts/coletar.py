@@ -20,6 +20,42 @@ import hashlib
 import requests
 
 # ---------------------------------------------------------------------------
+# PRODUTOS FIXOS — os que VOCÊ testou. Sempre aparecem, no topo, com selo
+# "Testado". Campos:
+#   "link":  link de afiliado (s.shopee.com.br/...). SEM link o produto não
+#            aparece no site — fica guardado aqui esperando.
+#   "nota":  sua opinião sincera em 1-2 frases (aparece no card de destaque)
+#   "video": vídeo do produto. Pode ser um arquivo comprimido em
+#            site/assets/videos/ (abre um player no próprio site) ou um link
+#            do TikTok/YouTube (abre em outra aba).
+#   "capa":  imagem mostrada antes do vídeo começar (opcional)
+# ---------------------------------------------------------------------------
+PRODUTOS_FIXOS = [
+    {
+        "cat": "Teclado",
+        "nome": "Teclado Gamer Golden Yang RGB",          # ajuste pro nome do anúncio
+        "preco": "",                                      # ex: "89,90"
+        "imagem": "site/assets/teclado-golden-yang.jpg",
+        "link": "",                                       # <<< COLE AQUI O LINK DE AFILIADO
+        "testado": True,
+        "nota": "",                                       # sua opinião sincera
+        "video": "site/assets/videos/teclado-golden-yang.mp4",
+        "capa": "site/assets/videos/teclado-golden-yang-capa.jpg",
+    },
+    {
+        "cat": "Mouse",
+        "nome": "Mouse Pad Gamer Grande Borda Costurada Estampa Oriental",
+        "preco": "20,99",
+        "imagem": "site/assets/mousepad-oriental.jpg",
+        "link": "https://s.shopee.com.br/9pcvTA8BO4",
+        "testado": True,
+        "nota": "Comprei e uso todo dia. Borda costurada firme, base que não escorrega e tamanho que cobre mouse e teclado.",
+        "video": "site/assets/videos/mousepad-oriental.mp4",
+        "capa": "site/assets/videos/mousepad-oriental-capa.jpg",
+    },
+]
+
+# ---------------------------------------------------------------------------
 # CONFIGURAÇÃO
 # ---------------------------------------------------------------------------
 ENDPOINT = "https://open-api.affiliate.shopee.com.br/graphql"
@@ -95,6 +131,11 @@ TIPO_ORDENACAO = 2
 
 # Pausa entre chamadas, para não bater no limite da API
 PAUSA_SEGUNDOS = 1
+
+# Trava de segurança: se a API devolver menos que isso (chave vencida, API fora
+# do ar...), o script NÃO sobrescreve o produtos.json — o site continua com os
+# produtos de ontem em vez de ficar vazio.
+MINIMO_PRODUTOS = 40
 
 PASTA_DADOS = os.path.join(os.path.dirname(__file__), "..", "dados")
 ARQUIVO_SAIDA = os.path.join(PASTA_DADOS, "produtos.json")
@@ -181,12 +222,28 @@ def traduzir(node, categoria):
     }
 
 
+def sem_acento(texto):
+    import unicodedata
+    return unicodedata.normalize("NFD", texto).encode("ascii", "ignore").decode().lower()
+
+
 def main():
     app_id, app_secret = carregar_credenciais()
 
     produtos = []
     vistos = set()          # evita o mesmo produto em duas buscas
     contagem = {}           # quantos produtos por categoria
+
+    # produtos fixos entram primeiro (os sem link/preço ficam de fora)
+    fixos = [p for p in PRODUTOS_FIXOS if p.get("link") and p.get("preco")]
+    for p in PRODUTOS_FIXOS:
+        if p not in fixos:
+            print(f"  ! fixo sem link ou preço, fora do site por enquanto: {p['nome']}")
+    for p in fixos:
+        produtos.append(dict(p))
+        vistos.add(p["link"])
+        contagem[p["cat"]] = contagem.get(p["cat"], 0) + 1
+    print(f"{len(fixos)} produto(s) fixo(s) adicionado(s)\n")
 
     for busca in BUSCAS:
         termo = busca["termo"]
@@ -203,8 +260,20 @@ def main():
 
         time.sleep(PAUSA_SEGUNDOS)
 
+    n = len(fixos)
+    if len(produtos) - n < MINIMO_PRODUTOS:
+        raise SystemExit(
+            f"ERRO: a API só devolveu {len(produtos) - n} produtos "
+            f"(mínimo {MINIMO_PRODUTOS}). produtos.json NÃO foi alterado.\n"
+            "Confira as credenciais e se a API está no ar."
+        )
+
     # ordena por categoria, para os cards saírem agrupados
-    produtos.sort(key=lambda p: p["cat"])
+    # (sem acento na comparação, senão "Áudio" vai pro fim da lista)
+    # mantém os fixos no topo
+    resto = produtos[n:]
+    resto.sort(key=lambda p: sem_acento(p["cat"]))
+    produtos = produtos[:n] + resto
 
     os.makedirs(PASTA_DADOS, exist_ok=True)
     with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as f:

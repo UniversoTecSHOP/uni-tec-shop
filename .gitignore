@@ -18,3 +18,17 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+achados/
+*.mp4
+*.MP3
+
+# Vídeos e material bruto das gravações (pesado demais pro GitHub)
+videos-achados/
+*.MOV
+*.mov
+*.MP4
+*.mp3
+
+# exceção: vídeos JÁ COMPRIMIDOS pro site (poucos MB) podem subir
+!site/assets/videos/*.mp4

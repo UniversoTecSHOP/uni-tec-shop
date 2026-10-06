@@ -26,3 +26,21 @@ O **Universo Tec** garimpa e reúne os melhores achados de tecnologia — gadget
 <p align="center">
   <i>Tecnologia que conecta sua vida.</i>
 </p>
+
+---
+
+### 🔧 Atualizar na mão
+
+```
+cd "C:\Users\capta\OneDrive\Desktop\uni-tec-shop"
+python scripts/coletar.py
+python scripts/gerar_site.py
+git status        # confira: NADA de .env nem vídeo na lista
+git add .
+git commit -m "Atualiza produtos"
+git push
+```
+
+- Produto que você testou: adicione em `PRODUTOS_FIXOS` no `scripts/coletar.py` (com `nota` e `video`).
+- Redes sociais e e-mail de sugestão: topo do `scripts/gerar_site.py`.
+- Link já filtrado pra mandar nas redes: `.../uni-tec-shop/?cat=mouse` ou `?q=fone`.
