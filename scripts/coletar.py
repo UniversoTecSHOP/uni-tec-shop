@@ -33,12 +33,12 @@ import requests
 PRODUTOS_FIXOS = [
     {
         "cat": "Teclado",
-        "nome": "Teclado Gamer Golden Yang RGB",          # ajuste pro nome do anúncio
-        "preco": "",                                      # ex: "89,90"
+        "nome": "Teclado Gamer RGB Sem Fio ABNT2 Bateria Durável Iluminação LED K518",
+        "preco": "259,00",
         "imagem": "site/assets/teclado-golden-yang.jpg",
-        "link": "",                                       # <<< COLE AQUI O LINK DE AFILIADO
+        "link": "https://s.shopee.com.br/gQcqUIhGy",
         "testado": True,
-        "nota": "",                                       # sua opinião sincera
+        "nota": "",                                       # sua opinião sincera (opcional)
         "video": "site/assets/videos/teclado-golden-yang.mp4",
         "capa": "site/assets/videos/teclado-golden-yang-capa.jpg",
     },
