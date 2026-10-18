@@ -1,8 +1,8 @@
 <h1 align="center">Universo Tec 🔵</h1>
 
 <p align="center">
-  <b>Achados e ofertas de tecnologia.</b><br>
-  Curadoria de produtos tech com os melhores preços da Shopee.
+  <b>O site já programado para te mostrar todas as ofertas de tecnologia da Shopee.</b><br>
+  Os mais procurados produtos tech com os melhores preços da Shopee.
 </p>
 
 ---
