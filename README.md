@@ -9,7 +9,7 @@
 
 ### 🚀 Sobre
 
-O **Universo Tec** garimpa e reúne os melhores achados de tecnologia — gadgets, acessórios e ofertas — pra facilitar sua vida na hora de comprar.
+O **Universo Tec** escolhe e reúne os melhores achados de tecnologia — gadgets, acessórios e ofertas — pra facilitar sua vida na hora de comprar.
 
 - 🔎 Curadoria de produtos tech
 - 🏷️ Foco em ofertas e bons preços
@@ -24,7 +24,7 @@ O **Universo Tec** garimpa e reúne os melhores achados de tecnologia — gadget
 ---
 
 <p align="center">
-  <i>Tecnologia que conecta sua vida.</i>
+  <i>Tecnologia que conecta e facilita a sua vida.</i>
 </p>
 
 ---
