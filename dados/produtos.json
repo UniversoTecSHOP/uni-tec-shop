@@ -23,55 +23,6 @@
   },
   {
     "cat": "Áudio",
-    "nome": "Fone de Ouvido Sem Fio PODSPRO 6 Estereo Com Cancelamento De Ruído Bluetooth Pop-Up para iOS E Android",
-    "preco": "42,98",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-82608-mmfzk1001czo45",
-    "link": "https://s.shopee.com.br/1CGSCvBQk"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "X55 Fones De Ouvido Para Dormir Bluetooth 5.3 Sem Fio HiFi Estéreo Com Cancelamento De Ruído À Prova D'água Fone Es",
-    "preco": "23,99",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-825an-muke6ixe92ps5b",
-    "link": "https://s.shopee.com.br/114ne3DNFZ"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "Fone de Ouvido Sem Fio Com Cancelamento De Ruído Bluetooth Pop-Up",
-    "preco": "38,18",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rffm-m4f5wo6pi7mjaa",
-    "link": "https://s.shopee.com.br/qlNRkE0aY"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "Fone De Ouvido X55 Sem Fio Bluetooth Com Display Led À Prova D'água",
-    "preco": "22,99",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-mm8wwjx3umfb75",
-    "link": "https://s.shopee.com.br/gRxFREdvX"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "Fone De Ouvido NOVO Ruído Cancelando Earbuds Bluetooth Sem Fio HiFi Stereo Com Carregamento De Visor Digital",
-    "preco": "19,99",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8224o-mhjfql4zsydg80",
-    "link": "https://s.shopee.com.br/W8X38FHGW"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "TWS Fones De Ouvido Bluetooth 5.3 Sem Fio Com Controle De Toque Pro4 Para Android & iOS",
-    "preco": "36,98",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l4-mtg679xrc1z7f9",
-    "link": "https://s.shopee.com.br/Lp6qpFubV"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "Y39 Mini Fone De Ouvido Sem Fio TWS Para Dormir Jogos HIFI Fones À Prova D'água",
-    "preco": "28,99",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd3p-m79l5cz09autf9",
-    "link": "https://s.shopee.com.br/8fUEm9Azz0"
-  },
-  {
-    "cat": "Áudio",
     "nome": "Fone De Ouvido Sem Fio M10 TWS Bluetooth 5.3 display Led Touch",
     "preco": "18,99",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-8258z-mr0fi8bhfthid6",
@@ -101,37 +52,100 @@
   {
     "cat": "Áudio",
     "nome": "Air Pro 4 Tws Fone De Ouvido Sem Fio Bluetooth 5.1Mini Fones Esportivos Para Android / Ios iphone",
-    "preco": "19,99",
+    "preco": "21,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lwghsqx5css501",
     "link": "https://s.shopee.com.br/8AXyBECtzz"
   },
   {
     "cat": "Áudio",
-    "nome": "Fone de Ouvido Sem Fio Airpods PRO 3 Com Cancelamento De Ruído Bluetooth Pop-Up para iOS e Android",
+    "nome": "Fone de Ouvido Sem Fio PODSPRO 6 Estereo Com Cancelamento De Ruído Bluetooth Pop-Up para iOS E Android",
     "preco": "42,98",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd3v-m70zchxbcirf93",
-    "link": "https://s.shopee.com.br/7KyrBhg3n9"
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-82608-mmfzk1001czo45",
+    "link": "https://s.shopee.com.br/1CGSCvBQk"
   },
   {
     "cat": "Áudio",
-    "nome": "Fone Sem Fio Bluetooth 5.3 Gamer Estéreo Touch Case M90 Pro - TOPMIX",
-    "preco": "20,99",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-820mh-mng5tsui4v0jc1",
-    "link": "https://s.shopee.com.br/3g5YoyY1rL"
+    "nome": "X55 Fones De Ouvido Para Dormir Bluetooth 5.3 Sem Fio HiFi Estéreo Com Cancelamento De Ruído À Prova D'água Fone Es",
+    "preco": "23,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-825an-muke6ixe92ps5b",
+    "link": "https://s.shopee.com.br/114ne3DNFZ"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Fone de Ouvido Sem Fio Com Cancelamento De Ruído Bluetooth Pop-Up",
+    "preco": "42,89",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rffm-m4f5wo6pi7mjaa",
+    "link": "https://s.shopee.com.br/qlNRkE0aY"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Fone De Ouvido X55 Sem Fio Bluetooth Com Display Led À Prova D'água",
+    "preco": "22,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-mm8wwjx3umfb75",
+    "link": "https://s.shopee.com.br/gRxFREdvX"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Fone De Ouvido NOVO Ruído Cancelando Earbuds Bluetooth Sem Fio HiFi Stereo Com Carregamento De Visor Digital",
+    "preco": "19,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8224o-mhjfql4zsydg80",
+    "link": "https://s.shopee.com.br/W8X38FHGW"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "TWS Fones De Ouvido Bluetooth 5.3 Sem Fio Com Controle De Toque Pro4 Para Android & iOS",
+    "preco": "36,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l4-mtg679xrc1z7f9",
+    "link": "https://s.shopee.com.br/Lp6qpFubV"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "K12 Caixa de som sem fio com microfone Karaokê, Mini Alto-falante Bluetooth portátil 1/2 Mic",
+    "preco": "27,48",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rff1-m96a3707agyh54",
+    "link": "https://s.shopee.com.br/W8a8vLApD"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Alaxe5 Generation Original Speaker Immediate Shipping Best Price",
+    "preco": "46,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mh4dohuahhc099",
+    "link": "https://s.shopee.com.br/20xNvgFSmW"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Caixa de som Bluetooth Portátil Com Led RGB Portátil FM USB TWS 30W Para Praia, Festa ou Viagem",
+    "preco": "99,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lqo1mmf95gcjc2",
+    "link": "https://s.shopee.com.br/2BGo7zEpRZ"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Lampada Bluetooth De Led Caixa De Som C Controle Rgb 12W",
+    "preco": "19,99",
+    "imagem": "https://cf.shopee.com.br/file/2030e1f1c2027f94c1e2efc1c3920f0d",
+    "link": "https://s.shopee.com.br/2LaEKIEC6c"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Rádio Caixa de Som Bluetooth Recarregável  Lanterna Retro Portátil FM AM USB SD Pilha",
+    "preco": "71,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820me-mogu34styw3n6e",
+    "link": "https://s.shopee.com.br/2VteWbDYlf"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Caixa de Som K12 Bluetooth Portátil com 1 ou 2 Microfones Mini Alto-Falante Karaokê",
+    "preco": "29,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zu0-mikpskoj21og40",
+    "link": "https://s.shopee.com.br/1Lhh8SI08S"
   },
   {
     "cat": "Áudio",
     "nome": "Fone De Ouvido Bluetooth5.3  M25 TWS Sem Fio Gamer Com Tela LED Som Surround Case Carregador Portátil Preto",
-    "preco": "22,49",
+    "preco": "68,89",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-motyagba1nnk38",
     "link": "https://s.shopee.com.br/6q2aanLyQy"
-  },
-  {
-    "cat": "Áudio",
-    "nome": "Fone De Ouvido Bluetooth Sem Fio Orelha De Gato LED Gamer Dobrável Som HD Microfone PC",
-    "preco": "33,99",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8258b-msorhiz9q1op2d",
-    "link": "https://s.shopee.com.br/6fjAOUMblx"
   },
   {
     "cat": "Áudio",
@@ -142,17 +156,66 @@
   },
   {
     "cat": "Áudio",
-    "nome": "Fone ouvido Xiaomi Redmi Airdots 2 /S TWS Preto sem Fio Bluetooth 5.0 Gamer",
-    "preco": "28,96",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8261u-mlvgcn6aiwp173",
-    "link": "https://s.shopee.com.br/70M0n6LL63"
+    "nome": "Fones de ouvido Headset Gamer com fio com microfone USB e P2 para PC computador headset videogames",
+    "preco": "46,10",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdb20j8qodgy84",
+    "link": "https://s.shopee.com.br/1Lhe2gKqRv"
   },
   {
     "cat": "Áudio",
-    "nome": "Fone de Ouvido Bluetooth Y69 PRO Ear Clip Borboleta 5.4 Sem Fio Gamer Baixa Latência Bateria 24H",
-    "preco": "58,60",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-ms5ieukbjimdab",
-    "link": "https://s.shopee.com.br/7VIHO1JR5A"
+    "nome": "Fone Bluetooth i13 TWS Sem Fio Air Pro 3 Bluetooth 5.0 Com Microfone Android iPhone Gamer Esportivo",
+    "preco": "20,49",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820md-moomhmv1p5aeaf",
+    "link": "https://s.shopee.com.br/2VtbQpGP5A"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Fones de ouvido Headset Gamer com fio com microfone USB e P2 para PC computador headset videogames",
+    "preco": "46,47",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-823on-mp09itpf0dmq6a",
+    "link": "https://s.shopee.com.br/2LaBEWH2Q9"
+  },
+  {
+    "cat": "Áudio",
+    "nome": "Headset Gamer HAVIT H2232d Fone De Ouvido Com Fio cabo 2 P2 3.5mm, Modo Gamer com IA Drivers 50mm 7.1 Surroun",
+    "preco": "99,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820la-mrshcewqmvpjc8",
+    "link": "https://s.shopee.com.br/2BGl2DHfl8"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Carregador iPhone Turbo Tipo-C 20W + Cabo Lightining para IPhone Carga rápida",
+    "preco": "18,49",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rbkw-lpcg9rytbas79a",
+    "link": "https://s.shopee.com.br/9V3LlmrrsG"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Carregador Turbo 20w Compatível iPhone + Cabo Lightning",
+    "preco": "26,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134201-820lw-mqx4vub9getg4c",
+    "link": "https://s.shopee.com.br/9KjvZTsVDF"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Carregador de Carregamento Turbo 30w Fonte 3A Torre Carregar Celular Tipo-C com Cabo Lightning(ios)",
+    "preco": "24,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lc-mpfk4paqdm9v32",
+    "link": "https://s.shopee.com.br/9fMly5rEXL"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Carregador Turbo 2 Saídas Fonte 50W 2 Entradas USB e USB-C com Cabo Lightning Ultra Rápido",
+    "preco": "28,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lv-mnz3i6a2bwn4e3",
+    "link": "https://s.shopee.com.br/AAJ2Z0pKWS"
+  },
+  {
+    "cat": "Cabos",
+    "nome": "Carregador para iPhone 20W PD Turbo com Opções: Fonte, Cabo USB-C Lightning ou Fonte + Cabo",
+    "preco": "9,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lsvdp1mfzd44da",
+    "link": "https://s.shopee.com.br/9zzcMhpxrR"
   },
   {
     "cat": "Cabos",
@@ -192,9 +255,177 @@
   {
     "cat": "Cabos",
     "nome": "Conversor HDMI Para AV RCA Mini HDMI2AV NTSC PAL Para TV Antiga TV Box Notebook Não Bidirecional",
-    "preco": "19,99",
+    "preco": "29,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820lg-mrukvllih3wk16",
     "link": "https://s.shopee.com.br/5LDmo8PGE3"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador Portátil 5000Mah/10000Mah Indução Sem fio Bateria Carga",
+    "preco": "31,97",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ln-mlske0kwri132f",
+    "link": "https://s.shopee.com.br/3B9LJuHwFe"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador Sem Fio 5000/10000mAh iPhone",
+    "preco": "31,95",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mavkx3k4v9n308",
+    "link": "https://s.shopee.com.br/30pv7bIZad"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Bateria externa portátil de 5000/10000 mAh, com cabo de carregamento incluso.",
+    "preco": "42,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjy4kou8o93770",
+    "link": "https://s.shopee.com.br/3VmBiWGfZk"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador Portátil Indução para Sem fio Bateria Carga 3000/5000/10000mAh",
+    "preco": "28,96",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhpueqwbzs3me6",
+    "link": "https://s.shopee.com.br/3LSlWDHIuj"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Kit Pilhas Clacier Recarregável  4700mAh ou 2700mAh",
+    "preco": "18,88",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-ltvoxhgf5nq83e",
+    "link": "https://s.shopee.com.br/3qP278FOtq"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Power Bank Solar 10000mAh Carregador Portátil Bateria Externa Para Xiaomi  Android IOS Tipo-C Carreg",
+    "preco": "129,96",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfo0hjxy73lsd5",
+    "link": "https://s.shopee.com.br/3g5bupG2Ep"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Cabo Carregador Carregamento Rápido Redondo 4 em 1 USB Tipo C Para Tipo C iP Silicone 2.0M Com Adaptador GaN",
+    "preco": "29,79",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mc-msb0ur82aghz80",
+    "link": "https://s.shopee.com.br/9fMly54pwy"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Cabo De Carregador 3 Em 1 100W 6A Tipo C Lightning Micro USB Carga Rápida Liga De Zinco 1,2M",
+    "preco": "13,89",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-mrjws5j3sz5x36",
+    "link": "https://s.shopee.com.br/9pgCAOqbCM"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador Veicular Universal Turbo com 3 USB e 1 Porta QC3.0, Carregamento Rápido para Celulares",
+    "preco": "12,50",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-823pd-mp0j3o3g5afi9e",
+    "link": "https://s.shopee.com.br/9KjvZT66cw"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador De Chaveiro Portátil | 1500mAh Ultra-Compacto Mini Pacote De Bateria Carregamento Rápido",
+    "preco": "16,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rbn0-lozfabuz0tmm4b",
+    "link": "https://s.shopee.com.br/9V3Llm5THz"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador Turbo 125w 68w 50w Super Rápido USB Tipo C",
+    "preco": "29,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lp-muveeoyakzr6a7",
+    "link": "https://s.shopee.com.br/9075Ar7NIu"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Carregador rápido de 120W 67W com 6A USB C cabo 1M para Mi Turbo Charge Turbo Power Cabo USB + Cabo Tipo C",
+    "preco": "20,90",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwm-mcqg8gq4duyo5b",
+    "link": "https://s.shopee.com.br/4qHZIyT3Ur"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Adaptador Tomada 1 a 4un Universal Padrão Internacional e USB 150 Países Viagem Bivolt",
+    "preco": "15,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820la-mojrfye7oykm66",
+    "link": "https://s.shopee.com.br/3qOz1Mn2gR"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Luminaria Mini Com Projeções Espaciais Ou Reflexos Abajur Infantil Céu Estrelado Lua Usb Iluminação Colorida 360º",
+    "preco": "20,00",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820la-mpy4qjuinkzn8f",
+    "link": "https://s.shopee.com.br/40iPDfmPLU"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "KIT 2 Carregador Tomada Plug Adaptador Fonte 3.1A MAX Mini Carregador Original Portátil Usb",
+    "preco": "29,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mj6il2z1ansz64",
+    "link": "https://s.shopee.com.br/4B1pPylm0X"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Qc3.0 Carregador Do Telefone Móvel Do Carro De Carregamento Rápido Adaptador 3 Portas Soquete",
+    "preco": "19,00",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rce4-lrehxkerety5ca",
+    "link": "https://s.shopee.com.br/4LLFcHl8fa"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Adaptador Benjamin Tomada Bivolt 3 Tomadas + 2 USB + USB-C Filtro de Linha Extensão Inteligente 10A 6 em 1",
+    "preco": "43,50",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820m2-mvze6do1kmiq79",
+    "link": "https://s.shopee.com.br/6AmwtQfeAL"
+  },
+  {
+    "cat": "Carregamento",
+    "nome": "Qc3.0 Carregador Do Telefone Móvel Do Carro De Carregamento Rápido Adaptador 3 Portas Soquete",
+    "preco": "20,00",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhtbeoj885xe52",
+    "link": "https://s.shopee.com.br/6L6N5jf0pO"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Capa Capinha Silicone Aveludada Cor PRETO BRANCO Para iPhone XR 11 12 13 14 15 16 17 PRO MAX PLUS",
+    "preco": "9,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134211-820m0-mn5zwa9a639d3f",
+    "link": "https://s.shopee.com.br/1BODqU9qs8"
+  },
+  {
+    "cat": "Celular",
+    "nome": "2/5/10 Pcs Capa Celular Bolsa Case A Prova D'água Transparente Cor Universal Praia Piscina Viajar Promoção",
+    "preco": "13,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-82598-mtbzagotnri807",
+    "link": "https://s.shopee.com.br/114neBAUD7"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Kit 2 Capinha Para Iphone Anti Impacto Transparente Tpu  Para IPhone 11 12 13 14 15 16 Pronto Entrega",
+    "preco": "12,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rauh-ma9zlfmu2nuc62",
+    "link": "https://s.shopee.com.br/qlNRsB7Y6"
+  },
+  {
+    "cat": "Celular",
+    "nome": "ALUBEN Capa De Carga Choque Magsafe de capinha celular fosca (1)De Celular compatível com iPhone 17 11 13 14 15 Pro Max",
+    "preco": "12,88",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-825at-mgch7kjzuosqe4",
+    "link": "https://s.shopee.com.br/gRxFZBkt5"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Tablet 10.1” HD + Teclado Bluetooth Capa 2 em 1 WiFi Android Tela Grande Alta Performance",
+    "preco": "528,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-82605-ml1b0utpf7d31a",
+    "link": "https://s.shopee.com.br/1qdudi7JWK"
+  },
+  {
+    "cat": "Celular",
+    "nome": "2026 Tablet T17 PRO MAX amx  mouse teclado 12GB RAM 512GB ROM Android14 com case 10.1 polegadas câmera 32MP",
+    "preco": "687,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-mlndfltxhq8487",
+    "link": "https://s.shopee.com.br/1gKURP7wrJ"
   },
   {
     "cat": "Celular",
@@ -239,6 +470,83 @@
     "link": "https://s.shopee.com.br/8VAoZy44RA"
   },
   {
+    "cat": "Celular",
+    "nome": "Suporte Magnético Forte Para Telefone Carro 360 ° Design Dobrável Vácuo Ajustável/Mesa/Uso Universal",
+    "preco": "15,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lk-mtjagn536ayqc2",
+    "link": "https://s.shopee.com.br/5LDptvdCRJ"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Carregador de carro retrátil com luz LED, carregador de carro rápido 4 em 1 de 120 W para iPhone e Android",
+    "preco": "39,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdmsrbntex15d7",
+    "link": "https://s.shopee.com.br/5qA6UqbIQQ"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Suporte de Celular Para Carro Universal Multifuncional Resistênte",
+    "preco": "16,40",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdvu-lycbgd0fjbp7ca",
+    "link": "https://s.shopee.com.br/5fqgIXbvlP"
+  },
+  {
+    "cat": "Celular",
+    "nome": "H'Maston CJ-02 Suporte Celular GPS Veicular Carro Universal 360° Trava Automática Ajustável",
+    "preco": "21,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rblf-m5z7dbop1eji56",
+    "link": "https://s.shopee.com.br/7VIKTuUx2m"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Suporte Veicular Carro Para Celular 360 ° Giratório Universal Multifuncional Ventilacao Ar",
+    "preco": "17,79",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7qukw-ljg30etzu9ibac",
+    "link": "https://s.shopee.com.br/7KyuHbVaNl"
+  },
+  {
+    "cat": "Celular",
+    "nome": "Suporte Celular Carro Veicular Trava Automática anti queda",
+    "preco": "24,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m3m7hftjtxp779",
+    "link": "https://s.shopee.com.br/7pvAsWTgMs"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Controle GameSir T4 Nova Lite Sem Fio para PC Switch Android iOS Celular Steam com Hall Effect",
+    "preco": "175,00",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mg-mq36yggsrlz5a9",
+    "link": "https://s.shopee.com.br/AKcSlIFpil"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Controle Xbox 360 Sem Fio Wireless para PC PS3 Android Joystick Gamer Ergonômico com Analógicos e Gatilhos de Precisão",
+    "preco": "65,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdvq-mdnf0t4fv6fp2b",
+    "link": "https://s.shopee.com.br/9V3LllJ0Pc"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Controle Sem Fio Joystick Gamer para Switch E PC  Oled Lite Com Cabo Carregável",
+    "preco": "53,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-822zm-mi5ynu2jlbeu9c",
+    "link": "https://s.shopee.com.br/9KjvZSJdkb"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Controle X3 Sem Fio Joystick Android Ios Ps3 Pc Tv Wireless",
+    "preco": "49,95",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l9-mpl2bge1yneqc3",
+    "link": "https://s.shopee.com.br/9pgCANHjji"
+  },
+  {
+    "cat": "Gamer",
+    "nome": "Controle Sem Fio para Smart Tv Pc Gamer e Ps4 Com Cabo Carregável Premium Quality",
+    "preco": "53,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-81ztt-mn1mk918qeis2b",
+    "link": "https://s.shopee.com.br/9fMly4IN4h"
+  },
+  {
     "cat": "Gamer",
     "nome": "1/2/5 PCS Suportes Práticos De Controle Remoto, Suportes De Parede Para Controle Plástico De Telefones Celulares",
     "preco": "9,90",
@@ -248,7 +556,7 @@
   {
     "cat": "Gamer",
     "nome": "Bastão Pau de Selfie Retrátil Bluetooth suport tripé para celular com controle",
-    "preco": "12,99",
+    "preco": "14,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lkwvnfez1vjzf4",
     "link": "https://s.shopee.com.br/5qA3P1xQnD"
   },
@@ -262,7 +570,7 @@
   {
     "cat": "Gamer",
     "nome": "Suporte de Celular Fixação Para Parede De Controle Remoto Com Adesivo",
-    "preco": "6,99",
+    "preco": "8,48",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-ln01kfszwhyzc0",
     "link": "https://s.shopee.com.br/6AmtndwA7J"
   },
@@ -276,9 +584,93 @@
   {
     "cat": "Gamer",
     "nome": "Selfie Stick Tripé 1.8M/2M/1.7M, 4 Eixos 360° Rotação Anti-tremor+ Controle Bluetooth Sem Fio para Vlog",
-    "preco": "53,99",
+    "preco": "54,99",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk1x0wpsptz69d",
     "link": "https://s.shopee.com.br/6VPkCFutRP"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB recarregável MS-S350L",
+    "preco": "17,97",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8258o-mts6opcfhceia2",
+    "link": "https://s.shopee.com.br/qlNRm4kFR"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Teclado e mouse sem fio—Compatível com tablet，Notebook e celular, Recarregável e 150h de Bateria",
+    "preco": "39,69",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbofl4hbm2ef45",
+    "link": "https://s.shopee.com.br/114ne546uU"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse Home Office Sem Fio - Bateria Interna Recarregável e LED RGB Wireless",
+    "preco": "21,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhelddzuvu2tea",
+    "link": "https://s.shopee.com.br/1BODqO3TZX"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mini Teclado Controle Sem Fio Para Smart Tv  Pc",
+    "preco": "23,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-22110-nr8cqyq5r9jve7",
+    "link": "https://s.shopee.com.br/1Lhe2h2qEa"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse Sem Fio Home Office - Recarregável com Bateria Interna e LED RGB",
+    "preco": "21,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi86cl1tjf2a2d",
+    "link": "https://s.shopee.com.br/1W14F02Ctd"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Kit Teclado e Mouse Sem Fio Bluetooth Colorido Macaron Para PC iPad Tablet Notebook",
+    "preco": "36,59",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m4kg0bicwo5141",
+    "link": "https://s.shopee.com.br/1gKURJ1ZYg"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Vertical Mouse Sem Fio com Bluetooth e 2.4G Ergonômico Recarregável Portátil para PC Gamer Notebook",
+    "preco": "34,95",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259j-mr9pv671vz0k79",
+    "link": "https://s.shopee.com.br/4fy60qBkL3"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse Vertical Ergonômico Sem Fio Recarregável USB Bluetooth Silencioso Ortopédico Mão Direita PC Gamer Super",
+    "preco": "38,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257t-mr8v1xuod63088",
+    "link": "https://s.shopee.com.br/8KrONYtRqQ"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse Vertical Ergonômico Sem Fio Recarregável USB Bluetooth Silencioso Ortopédico Mão Direita PC Gamer Super",
+    "preco": "38,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259v-mr8nuuvjuoslb6",
+    "link": "https://s.shopee.com.br/8VAoZrsoVT"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse Vertical Ergonômico Kapbom KA-612 Sem Fio Bluetooth USB Recarregável Silencioso Ortopédico Mão Direita PC Gamer",
+    "preco": "49,89",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mc-mrfwyrmgnf2fd3",
+    "link": "https://s.shopee.com.br/9zzcMcn6Sm"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse Vertical Ergonômico Recarregável Sem Fio Bluetooth Led Usb 2.4G 1600 Dpi Silencioso Portátil",
+    "preco": "38,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lf-mrjla96krev9cf",
+    "link": "https://s.shopee.com.br/AAJ2YvmT7p"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Vertical Mouse Sem Fio com Bluetooth e 2.4G Ergonômico Recarregável Portátil para PC Gamer Notebook",
+    "preco": "34,96",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ag-mr9puw4ioqvg3e",
+    "link": "https://s.shopee.com.br/AKcSlElpms"
   },
   {
     "cat": "Mouse",
@@ -304,7 +696,7 @@
   {
     "cat": "Mouse",
     "nome": "Mousepad Gamer APEX Control Mouse pad Grande 49x42 Mouse Pad Branco Preto Blade Red Girl Titorion",
-    "preco": "64,90",
+    "preco": "69,89",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820lr-mvvodw44gf0g64",
     "link": "https://s.shopee.com.br/5LDmo3mrm8"
   },
@@ -321,62 +713,6 @@
     "preco": "20,90",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-8260j-mmde0kolbima5e",
     "link": "https://s.shopee.com.br/5fqdCflb6E"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Mouse Gamer 1200dpi Com Fio Usb Led Rgb Profissional Para Jogos Pc",
-    "preco": "13,90",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lu-mt3zx01j79qff3",
-    "link": "https://s.shopee.com.br/5fqdCgU4kO"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Vertical Mouse Sem Fio com Bluetooth e 2.4G Ergonômico Recarregável Portátil para PC Gamer Notebook",
-    "preco": "34,95",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259j-mr9pv671vz0k79",
-    "link": "https://s.shopee.com.br/4fy60qBkL3"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Mouse Gamer Jogos Laser 3600dpi Usb Com Fio Led 7 Botões Iluminado",
-    "preco": "16,88",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lwoh850dygu797",
-    "link": "https://s.shopee.com.br/5AuMbl9qKA"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Teclado Gamer Semi Mecânico Com Fio 104 Teclas LED Colorido À Prova D'água Gamer e Trabalho Preto/Rosa/Branco/Roxo/Azul",
-    "preco": "69,02",
-    "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mrfa4ynpzpc2c6",
-    "link": "https://s.shopee.com.br/50awPSATf9"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Mouse X11 Sem Fio Bluetooth Gamer Sem Fio Com Adesivo Bluetooth Usb Preto e Branco 3 em 1",
-    "preco": "89,99",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ls-mq6gdzjywbgh5d",
-    "link": "https://s.shopee.com.br/40iQnwg3pF"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Teclado Gamer/ Escritório Com Fio RGB LED Iluminado  Com 68 Teclados Mecânicos",
-    "preco": "89,88",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcmbtqmuebcx87",
-    "link": "https://s.shopee.com.br/4VehOre9oM"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Teclado e mouse sem fio—Compatível com tablet，Notebook e celular, Recarregável e 150h de Bateria",
-    "preco": "39,69",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbofl4hbm2ef45",
-    "link": "https://s.shopee.com.br/114ne546uU"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Mouse Sem Fio Home Office - Recarregável com Bateria Interna e LED RGB",
-    "preco": "21,90",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi86cl1tjf2a2d",
-    "link": "https://s.shopee.com.br/1W14F02Ctd"
   },
   {
     "cat": "Mouse",
@@ -401,45 +737,122 @@
   },
   {
     "cat": "Mouse",
-    "nome": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB recarregável MS-S350L",
-    "preco": "16,09",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8258o-mts6opcfhceia2",
-    "link": "https://s.shopee.com.br/qlNRm4kFR"
+    "nome": "Mouse Gamer 1200dpi Com Fio Usb Led Rgb Profissional Para Jogos Pc",
+    "preco": "13,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lu-mt3zx01j79qff3",
+    "link": "https://s.shopee.com.br/5fqdCgU4kO"
   },
   {
     "cat": "Mouse",
-    "nome": "Kit Teclado e Mouse Sem Fio Bluetooth Colorido Macaron Para PC iPad Tablet Notebook",
-    "preco": "36,59",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m4kg0bicwo5141",
-    "link": "https://s.shopee.com.br/1gKURJ1ZYg"
+    "nome": "Mouse Gamer Sem Fio 2.4GHz + Bluetooth 5.0 RGB Recarregável",
+    "preco": "53,88",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgwn55av4zk757",
+    "link": "https://s.shopee.com.br/7pvAsREaGW"
   },
   {
     "cat": "Mouse",
-    "nome": "Kit Teclado e Mouse Sem Fio Bluetooth Colorido Macaron Para PC iPad Tablet Notebook",
-    "preco": "39,96",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98q-lm6cuz4t24ob4a",
-    "link": "https://s.shopee.com.br/20xKpx427L"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Kit Teclado e Mouse Sem Fio Bluetooth Ultrafino Portátil Recarregável Celular Notebook Computador",
-    "preco": "44,98",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-mmrvjyqa1og72d",
-    "link": "https://s.shopee.com.br/80EXyyhBwW"
-  },
-  {
-    "cat": "Mouse",
-    "nome": "Uniwity Mouse Sem Fio Recarregável com Bluetooth, RGB e Design Ergonômico – Conforto e Estilo",
+    "nome": "Uniwity Mouse Gamer Sem Fio Bluetooth 2.4G RGB Recarregável 1600 DPI Estampado Silencioso para PC Notebook",
     "preco": "59,99",
-    "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mlbqolciatxcb6",
-    "link": "https://s.shopee.com.br/3LSiQQK4Pv"
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820m0-mtonighvpgqrb2",
+    "link": "https://s.shopee.com.br/7fbkg8FDbV"
   },
   {
     "cat": "Mouse",
-    "nome": "Kit Teclado E Mouse Sem Fio Bluetooth Wireless 2.4ghz Notebook Usb Ultra Slim Compacto Android Pc",
-    "preco": "79,99",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjh4wzrmdm9uc0",
-    "link": "https://s.shopee.com.br/8KrONafvGc"
+    "nome": "Mouse Vertical Ergonômico Sem Fio Recarregável USB Bluetooth Silencioso Ortopédico Mão Direita PC Gamer Super",
+    "preco": "38,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259v-mr8nuuvjuoslb6",
+    "link": "https://s.shopee.com.br/7VIKTpFqwU"
+  },
+  {
+    "cat": "Mouse",
+    "nome": "Mouse X11 Sem Fio Bluetooth Gamer Sem Fio Com Adesivo Bluetooth Usb Preto e Branco 3 em 1",
+    "preco": "99,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ls-mq6gdzjywbgh5d",
+    "link": "https://s.shopee.com.br/7KyuHWGUHT"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Placa Pix Acrílico para QR Code - Suporte Display de mesa ou balcão",
+    "preco": "13,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9q78ptnww02b5",
+    "link": "https://s.shopee.com.br/60TWh9x8ny"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Suporte para laptop de alumínio dobrável, portátil, ajustável, para laptops de 10 a 17 polegadas",
+    "preco": "22,80",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztm-ml60df37ol53b0",
+    "link": "https://s.shopee.com.br/6AmwtSwVT1"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Suporte Base Para Notebook Mesa Apoio Tablet Portatil com Regulagem Dobravel",
+    "preco": "19,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mf-mncxnab1mfb64f",
+    "link": "https://s.shopee.com.br/5fqgIXyPTw"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Suporte Dobrável para Notebook e Tablet | Base Plástica Portátil 7 Níveis de Ajuste Prático",
+    "preco": "14,23",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mg-mm22jene172803",
+    "link": "https://s.shopee.com.br/5qA6Uqxm8z"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Suporte Para Cpu Computador Ajustavel Rodizios",
+    "preco": "22,20",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7qukw-li8txvm0m2wl05",
+    "link": "https://s.shopee.com.br/5LDptvzg9u"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Suporte de Mesa para Tablet 360° Base Ajustável e Dobrável Suporte Ergonômico",
+    "preco": "22,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhc19qjy0tmoed",
+    "link": "https://s.shopee.com.br/5VXG6Ez2ox"
+  },
+  {
+    "cat": "Setup",
+    "nome": "GS 2 Em 1 Kit Clip De Lente Do Telefone Móvel Externo HD Macro 37mm 49UV 0.45x Super Grande Angular 12.5x Da Câmera",
+    "preco": "19,98",
+    "imagem": "https://cf.shopee.com.br/file/br-11134211-7r98o-lylii0zdrz8l3e",
+    "link": "https://s.shopee.com.br/8pneyaX7PG"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Kit 2 Câmeras Segurança WiFi Externa 360° Full HD IP66 Visão Noturna Yoosee ICSee Bivolt",
+    "preco": "179,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lsijvpvxfktg49",
+    "link": "https://s.shopee.com.br/8fUEmHXkkF"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Antena digital alta sensibilidade longo alcance / Tv interna externa full HD",
+    "preco": "12,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mrtni9uivhfqba",
+    "link": "https://s.shopee.com.br/8VAoZyYO5E"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Case De Gaveta Usb 3.0 Hd 2.5 Sata Externo - Alta Qualidade",
+    "preco": "15,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-822y1-mi7rinr0f5zb6e",
+    "link": "https://s.shopee.com.br/8KrONfZ1QD"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Câmera A8 Externa Ip A Prova D'água com Infravermelho Alarme Wifi Hd Sensor De Movimento Bivolt app yoosee ou icsee",
+    "preco": "98,98",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwd-m1lmef19ftx927",
+    "link": "https://s.shopee.com.br/8AXyBMZelC"
+  },
+  {
+    "cat": "Setup",
+    "nome": "Câmera Segurança P15 Ptz Wifi Full Hd Externa Lente Lens Icsee Tripla 9mp",
+    "preco": "189,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lq-msxaydq93cp0ef",
+    "link": "https://s.shopee.com.br/80EXz3aI6B"
   },
   {
     "cat": "Setup",
@@ -451,7 +864,7 @@
   {
     "cat": "Setup",
     "nome": "Webcam Full Hd 1080p Microfone Pc Notebook Home Office Nova Pronta Entrega",
-    "preco": "28,09",
+    "preco": "31,24",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-823oq-mopm4jtwcu8cd6",
     "link": "https://s.shopee.com.br/1BOFQo2V0B"
   },
@@ -464,24 +877,24 @@
   },
   {
     "cat": "Setup",
+    "nome": "Webcam Câmera Computador Full HD 1080x1920p 2MP USB Plug Play Microfone Embutido",
+    "preco": "28,00",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbr296cjoyft59",
+    "link": "https://s.shopee.com.br/W8a93r8ii"
+  },
+  {
+    "cat": "Setup",
     "nome": "Webcam com Microfone Full HD 1080p Giratória 360° Ajuste de Ângulo Livre para PC Notebook e Home Office",
     "preco": "31,88",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259k-mt904xzz94w538",
-    "link": "https://s.shopee.com.br/1W15pQ1EKH"
+    "link": "https://s.shopee.com.br/Lp9wkrm3h"
   },
   {
     "cat": "Setup",
-    "nome": "Cabo Extensor UBS 3.0 - 1 Metro, 2 Metros e 3 Metros - 5 Gbps - Extensão Macho e Fêmea Webcam Mouse",
+    "nome": "Cabo Extensor USB 1 Metro, 2 Metros e 3 Metros - Extensão 2.0 Ponta Macho e Fêmea Webcam Mouse Teclado USB-A Resistente",
     "preco": "20,11",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-me4gt4guwv7n85",
-    "link": "https://s.shopee.com.br/1gKW1j0azK"
-  },
-  {
-    "cat": "Setup",
-    "nome": "Kit 10/20/30 Protetor Câmera Webcam Notebook Celular Privacidade Segurança Online Anti Espião Hacker",
-    "preco": "12,90",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-820m9-mlnwpgh9fr46c8",
-    "link": "https://s.shopee.com.br/1qdwE1zxeN"
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l6-mw22z0ogunsx90",
+    "link": "https://s.shopee.com.br/BVjkRsPOg"
   },
   {
     "cat": "Setup",
@@ -507,7 +920,7 @@
   {
     "cat": "Setup",
     "nome": "Rádio Retrô Vintage  Portátil A Pilha E Tomada Am Fm Sw Pendrive Com Sd Usb",
-    "preco": "65,96",
+    "preco": "63,96",
     "imagem": "https://cf.shopee.com.br/file/5668b40336453e4167b4a69645a40c6e",
     "link": "https://s.shopee.com.br/2Vtd1GNPPq"
   },
@@ -524,6 +937,48 @@
     "preco": "9,90",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820lt-mvp7w70fxwxt54",
     "link": "https://s.shopee.com.br/2qWTPsM8jw"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Kit Gamer Teclado Semi Mecânico + Mouse 2400dpi Usb Rgb Iluminado Jogos Pc",
+    "preco": "48,99",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259c-muhwpxj6xclm6a",
+    "link": "https://s.shopee.com.br/7VIHO49QMF"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Mecanico TGT Sherman Compacto V2, Rainbow, ABNT2, Switch Huano Azul, Branco, TGT-SHCPTW-RBW02",
+    "preco": "102,90",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-821fg-mgpea0fu8gln65",
+    "link": "https://s.shopee.com.br/70M0n9BKNA"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Gamer Semi-mecânico Rgb Anti-ghosting",
+    "preco": "38,88",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcw6gui5vk1e01",
+    "link": "https://s.shopee.com.br/7AfQzSAh2D"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Gamer Semi-Mecânico USB Iluminação LED RGB Rainbow Anti-Ghosting Resistente a Agua ABNT2",
+    "preco": "41,97",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mp1n7p6463nq79",
+    "link": "https://s.shopee.com.br/6fjAOXCb38"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Mecanico Gamer TGT Sherman Compacto, Rainbow, ABNT2, Switch Azul, Preto, TGT-SHTKL-RBW01",
+    "preco": "108,90",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mb84nf9v9xu73e",
+    "link": "https://s.shopee.com.br/6q2aaqBxiB"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Mecanico TGT Sherman V3 C1, Rainbow, ABNT2, Switch Marrom, Preto, TGT-SHRC-BR01",
+    "preco": "114,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-mqeqor4n0f7k82",
+    "link": "https://s.shopee.com.br/6L6JzvDrj6"
   },
   {
     "cat": "Teclado",
@@ -569,10 +1024,31 @@
   },
   {
     "cat": "Teclado",
+    "nome": "Mouse Gamer Jogos Laser 3600dpi Usb Com Fio Led 7 Botões Iluminado",
+    "preco": "16,88",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lwoh850dygu797",
+    "link": "https://s.shopee.com.br/5AuMbl9qKA"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Gamer Semi Mecânico Com Fio 104 Teclas LED Colorido À Prova D'água Gamer e Trabalho Preto/Rosa/Branco/Roxo/Azul",
+    "preco": "69,02",
+    "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mrfa4ynpzpc2c6",
+    "link": "https://s.shopee.com.br/50awPSATf9"
+  },
+  {
+    "cat": "Teclado",
     "nome": "Teclado Gamer USB Styger Membrana ABNT2 Preto Com Fio USB Plug And Play Para PC Notebook",
     "preco": "33,96",
     "imagem": "https://cf.shopee.com.br/file/br-11134207-820m7-mqm8hw9ruxhc83",
     "link": "https://s.shopee.com.br/6fjAOXq7qB"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Teclado Gamer/ Escritório Com Fio RGB LED Iluminado  Com 68 Teclados Mecânicos",
+    "preco": "89,88",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcmbtqmuebcx87",
+    "link": "https://s.shopee.com.br/4VehOre9oM"
   },
   {
     "cat": "Teclado",
@@ -583,22 +1059,29 @@
   },
   {
     "cat": "Teclado",
-    "nome": "Mouse Home Office Sem Fio - Bateria Interna Recarregável e LED RGB Wireless",
-    "preco": "21,90",
-    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhelddzuvu2tea",
-    "link": "https://s.shopee.com.br/1BODqO3TZX"
+    "nome": "Aspirador de Pó Portátil 3 em 1 USB Recarregável sem Fio para Carro, Casa e Teclado",
+    "preco": "24,88",
+    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259i-mrgdgd4gvoxz41",
+    "link": "https://s.shopee.com.br/3Vm8cjJR4w"
   },
   {
     "cat": "Teclado",
-    "nome": "Mini Teclado Controle Sem Fio Para Smart Tv  Pc",
-    "preco": "21,50",
-    "imagem": "https://cf.shopee.com.br/file/sg-11134201-22110-nr8cqyq5r9jve7",
-    "link": "https://s.shopee.com.br/1Lhe2h2qEa"
+    "nome": "Uniwity Mouse Sem Fio Recarregável com Bluetooth, RGB e Design Ergonômico – Conforto e Estilo",
+    "preco": "59,99",
+    "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mlbqolciatxcb6",
+    "link": "https://s.shopee.com.br/3LSiQQK4Pv"
+  },
+  {
+    "cat": "Teclado",
+    "nome": "Mouse Sem Fio com Bluetooth Recarregável Wireless Led Rgb Ergonômico TECNO",
+    "preco": "37,99",
+    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mc8yg3ntp3or77",
+    "link": "https://s.shopee.com.br/4VefoZFd3A"
   },
   {
     "cat": "Vestível",
     "nome": "Smartwatch D20 - Relógio Inteligente y68 Esportivo Bluetooth Android/iOS - Com foto Na Tela",
-    "preco": "17,96",
+    "preco": "19,99",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rffv-m43cb4hjqxjrce",
     "link": "https://s.shopee.com.br/BViEyshfS"
   },
@@ -647,7 +1130,7 @@
   {
     "cat": "Vestível",
     "nome": "2026 Nova Série 8 Relógio T800 Ultra Smart Watch Esportivo Sem Fio À Prova D'água T800 Ultra2 MAX",
-    "preco": "42,75",
+    "preco": "43,99",
     "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdym-lxrzfhio6fhl9d",
     "link": "https://s.shopee.com.br/9zzdx3dKrh"
   }
